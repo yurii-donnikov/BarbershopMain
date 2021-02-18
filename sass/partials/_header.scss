@@ -1,0 +1,56 @@
+header {
+  max-width: 100%;
+  min-height: 72px;
+  background-color: #000000;
+  display: block;
+  position: relative;
+
+  .container-fluid {
+    display: block;
+    overflow: hidden;
+
+    nav {
+      display: block;
+      line-height: 42px;
+      padding: none;
+
+      li {
+        margin: 0 10px 0 0px;
+
+        a {
+          color: #ffffff;
+          font-family: 'PT Sans Narrow', sans-serif;
+          font-weight: 400;
+          font-size: 16px;
+          text-transform: uppercase;
+
+          &:hover {
+            color: #a7a6a6;
+          }
+        }
+      }
+    }
+
+    .col-4 {
+      line-height: 72px;
+
+      .iconOpen {
+        min-height: 14px;
+        min-width: 14px;
+      }
+
+      .hOpen {
+        margin: 0 0 0 15px;
+        color: #a7a6a6;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        text-transform: uppercase;
+
+        &:hover {
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}

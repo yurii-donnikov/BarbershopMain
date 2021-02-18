@@ -1,0 +1,222 @@
+.center_main {
+  margin: 60px 0 60px 0;
+  display: block;
+  position: relative;
+
+  .container-fluid {
+    max-width: 100%;
+    min-height: 400px;
+    background-image: url(../images/backmain.png);
+    background-repeat: repeat;
+    opacity: 0;
+    transition: all 1.2s ease 0s;
+
+    .centM1 {
+      display: block;
+      position: relative;
+
+      h2 {
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-weight: 900;
+        font-size: 25px;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        color: #000000;
+        margin: 50px 0 0 70px;
+
+        @media (max-width: 575px) {
+          font-size: 20px;
+          text-align: center;
+          margin: 50px 0 0 0;
+        }
+      }
+
+      .cntrp {
+        margin: 15px 0 0 70px;
+        max-width: 350px;
+        line-height: 25px;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #000000;
+
+        @media (max-width: 575px) {
+          font-size: 13px;
+          max-width: 100%;
+          margin: 15px 0 0 0;
+          text-align: center;
+
+        }
+      }
+
+      .cntrData {
+        margin: 5px 0 0 70px;
+        line-height: 25px;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        text-transform: uppercase;
+        color: #000000;
+
+        @media (max-width: 575px) {
+          margin: 5px 0 0 0;
+          text-align: center;
+        }
+      }
+
+      .acentr {
+        display: block;
+        position: relative;
+        margin: 30px 0 10px 70px;
+        width: 140px;
+        height: 40px;
+        background-color: #000000;
+        color: #ffffff;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-weight: 200;
+        font-size: 24px;
+        line-height: 40px;
+
+        @media (max-width: 575px) {
+          margin: 30px 0 0 0;
+          width: 100%;
+        }
+
+        &:hover {
+          background-color: #292929;
+        }
+      }
+
+      &:after {
+        content: "";
+        height: 240px;
+        width: 5px;
+        position: absolute;
+        top: 50%;
+        left: 100%;
+        transform: translateY(-50%);
+        display: block;
+        overflow: visible;
+        background-image: url(../images/mIconLine.png);
+      }
+    }
+
+    .centM2 {
+      position: relative;
+
+      h2 {
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-weight: 900;
+        font-size: 25px;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        color: #000000;
+        margin: 50px 0 0 70px;
+
+        @media (max-width: 575px) {
+          margin: 50px 0 0 0;
+          font-size: 20px;
+          text-align: center;
+        }
+      }
+
+      #slider {
+        margin: 15px 0 0 70px;
+        max-width: 290px;
+
+        @media (max-width: 575px) {
+          margin: 15px 0 0 0;
+          max-width: 100%;
+          text-align: center;
+        }
+
+        .carousel-inner {
+          max-height: 164px;
+          max-width: 290px;
+
+          @media (max-width: 575px) {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+          }
+
+          .carousel-item {
+            max-height: 164px;
+            max-width: 290px;
+          }
+
+          img {
+            height: 100%;
+            width: 100%;
+          }
+        }
+
+        .d-inline-flex {
+          @media (max-width: 575px) {
+            width: 100%;
+          }
+        }
+
+        .carousel-control-prev-icon {
+          position: relative;
+          margin: 60px 5px 0 0;
+          height: 44px;
+          width: 90px;
+          background-color: #000000;
+          background-image: none;
+          color: #ffffff;
+          text-decoration: none;
+          font-family: 'PT Sans Narrow', sans-serif;
+          font-weight: 200;
+          font-size: 20px;
+          line-height: 40px;
+
+          @media (max-width: 575px) {
+            width: 50%;
+            margin: 60px 1px 20px 0;
+          }
+
+
+
+
+          &:hover {
+            background-color: #292929;
+          }
+        }
+
+        .carousel-control-next-icon {
+          position: relative;
+          margin: 60px 0 0px 5px;
+          height: 44px;
+          width: 90px;
+          background-color: #000000;
+          background-image: none;
+          color: #ffffff;
+          text-decoration: none;
+          font-family: 'PT Sans Narrow', sans-serif;
+          font-weight: 200;
+          font-size: 20px;
+          line-height: 40px;
+
+          @media (max-width: 575px) {
+            width: 50%;
+            margin: 60px 1px 20px 0;
+          }
+
+          &:hover {
+            background-color: #292929;
+          }
+        }
+
+      }
+    }
+
+
+  }
+    .active {
+      opacity: 1;
+
+    }
+}
